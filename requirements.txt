@@ -1,0 +1,27 @@
+# ============================================================
+#  requirements.txt — All packages for Jarvis AI Assistant
+#  Install with:  pip install -r requirements.txt
+#  EVERYTHING HERE IS FREE AND OPEN-SOURCE.
+# ============================================================
+
+# ── Text-to-Speech (offline) ─────────────────────────────────
+pyttsx3>=2.90
+
+# ── Speech Recognition ───────────────────────────────────────
+SpeechRecognition>=3.10.0
+
+# ── Microphone support for SpeechRecognition ─────────────────
+PyAudio>=0.2.13
+
+# ── Wikipedia search ─────────────────────────────────────────
+wikipedia>=1.4.0
+
+# ── DuckDuckGo search (free, no API key) ─────────────────────
+duckduckgo-search>=6.0.0
+
+# ── Web scraping fallback ────────────────────────────────────
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# ── All other dependencies (os, sqlite3, subprocess, etc.)
+#    are part of Python's standard library — no pip needed.
